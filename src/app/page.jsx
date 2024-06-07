@@ -34,7 +34,7 @@ const page = async () => {
 
   return (
     <div>
-      <h1>We will get all posts </h1>
+      <h1>We will get all posts plus testing fork </h1>
       <p>{post?.title}</p>
       <Suspense fallback={<p>Data is coming</p>}>
         <Data />
